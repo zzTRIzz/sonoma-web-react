@@ -1,0 +1,119 @@
+/* Các style cũ giữ nguyên */
+.custom-bg-success-subtle {
+  background-color: var(--bs-success-bg-subtle);
+  color: var(--bs-success-text-emphasis);
+}
+
+.checked {
+  color: rgb(245, 158, 11);
+}
+
+.breadcrumb-item {
+  font-size: 12px;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color: rgb(112, 112, 112);
+}
+
+.only-plus-jakarta-sans {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Style cho card sản phẩm */
+.css-card {
+  transition: all 0.3s ease;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  height: 380px; /* Cố định chiều cao của card */
+  display: flex;
+  flex-direction: column;
+}
+
+.css-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.css-giamgia {
+  background-color: rgb(215, 0, 24);
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 4px 8px;
+}
+
+.img-css {
+  object-fit: contain;
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.css-moneys {
+  font-size: 16px;
+  color: rgb(215, 0, 24);
+  font-weight: 500;
+}
+
+.css-moneys span {
+  text-decoration: line-through;
+  color: rgb(112, 112, 112);
+  font-size: 14px;
+}
+
+.btnGioHangHTML {
+  background-color: transparent;
+  color: rgb(215, 0, 24);
+  border: 1px solid rgb(215, 0, 24);
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.btnGioHangHTML:hover {
+  background-color: rgb(215, 0, 24);
+  color: white;
+}
+
+/* Style mới cho tiêu đề danh mục và nút thương hiệu */
+.category-title {
+  font-size: 28px; /* Kích thước chữ lớn hơn */
+  font-weight: 700; /* In đậm */
+  color: #333; /* Màu chữ tối */
+}
+
+.btn-brand {
+  background-color: #fff; /* Nền trắng */
+  border: 1px solid #e0e0e0; /* Viền xám nhạt */
+  border-radius: 20px; /* Bo góc tròn */
+  color: #666; /* Màu chữ xám */
+  font-size: 14px;
+  padding: 6px 12px;
+  text-decoration: none; /* Bỏ gạch chân */
+  transition: all 0.3s ease;
+}
+
+.btn-brand:hover {
+  background-color: #f5f5f5; /* Nền xám nhạt khi hover */
+  color: #333; /* Màu chữ đậm hơn khi hover */
+}
+
+.btn-view-all {
+  background-color: transparent; /* Nền trong suốt */
+  border: none; /* Không có viền */
+  color: #007bff; /* Màu chữ xanh dương */
+  font-size: 14px;
+  padding: 6px 12px;
+  text-decoration: none; /* Bỏ gạch chân */
+  transition: all 0.3s ease;
+}
+
+.btn-view-all:hover {
+  color: #0056b3; /* Màu xanh đậm hơn khi hover */
+}
